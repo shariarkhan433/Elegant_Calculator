@@ -3,6 +3,7 @@ package branch;
 public class branch_feature {
     String name, id;
     float gpa;
+
     int income;
 
     public int getIncome() {
@@ -17,6 +18,7 @@ public class branch_feature {
         this.name=s;
         this.id=s1;
         this.gpa=f;
+
     }
 
     public String getName() {
