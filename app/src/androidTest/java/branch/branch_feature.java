@@ -3,7 +3,17 @@ package branch;
 public class branch_feature {
     String name, id;
     float gpa;
-    branch_feature(String s,String s1,float f){
+    int income;
+
+    public int getIncome() {
+        return income;
+    }
+
+    public void setIncome(int income) {
+        this.income = income;
+    }
+
+    branch_feature(String s, String s1, float f){
         this.name=s;
         this.id=s1;
         this.gpa=f;
