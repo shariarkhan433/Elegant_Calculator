@@ -3,10 +3,21 @@ package branch;
 public class branch_feature {
     String name, id;
     float gpa;
-    branch_feature(String s,String s1,float f){
-        this.name=s;
-        this.id=s1;
-        this.gpa=f;
+    int age;
+
+    public branch_feature(String name, String id, float gpa, int age) {
+        this.name = name;
+        this.id = id;
+        this.gpa = gpa;
+        this.age = age;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public String getName() {
